@@ -17,8 +17,6 @@
 \newcommand{\tempoAspegnimento}{\color{blue}{tempoAspegne}}
 \newcommand{\conteggioAttivo}{\color{green!60!black}{conteggioAttivo}}
 
-\title{Timer per ventilatore a pale}
-\author{Luca Valcavi}
 \date{\today}
 
 \begin{document}
@@ -44,40 +42,40 @@
     \section{Schemi a blocchi}    
     \subsection{loop}
     \begin{center}
-        \input{files/loop.tex}
+        \input{filesloop.tex}
     \end{center}
     \subsection{Orologio}
     \begin{center}
-        \input{files/orologio.tex}
+        \input{filesorologio.tex}
     \end{center}    
 	\subsection{chkTEMPO}
     \begin{center}
-        \input{files/chktempo.tex}
+        \input{fileschktempo.tex}
     \end{center}
     \subsection{setLEDs}
     \begin{center}
-        \input{files/setLeds.tex}
+        \input{filessetLeds.tex}
     \end{center}       
     \subsection{chkPremuto}
     \begin{center}
-        \input{files/chkpremuto2.tex}
+        \input{fileschkpremuto2.tex}
     \end{center}    
     \subsection{chkRilasciato}
     \begin{center}
-        \input{files/chkrilasciato.tex}
+        \input{fileschkrilasciato.tex}
     \end{center}
-    \subsubsection{FunzioneA}
-        \lstinputlisting[style=Arduino,firstline=291,lastline=343]{code/TimerVentilatore4/TimerVentilatore4.ino}        
-    \subsubsection{FunzioneB}
-        (non usata)
-    \subsubsection{FunzioneC}
-        \lstinputlisting[style=Arduino,firstline=221,lastline=227]{code/TimerVentilatore4/TimerVentilatore4.ino}        
-    \subsubsection{FunzioneD}
-        (non usata)
-    \section{Codice completo}
-        \lstinputlisting[style=Arduino,firstline=1,lastline=350]{code/TimerVentilatore4/TimerVentilatore4.ino}
-    \section{Schema elettrico}
-    \includegraphics[width=16cm]{images/schema.png}
-    \section{PCB}
-    \includegraphics[width=16cm]{images/pcb.png}
+%    \subsubsection{FunzioneA}
+%        \lstinputlisting[style=Arduino,firstline=291,lastline=343]{code/TimerVentilatore4/TimerVentilatore4.ino}        
+%    \subsubsection{FunzioneB}
+%        (non usata)
+%    \subsubsection{FunzioneC}
+%        \lstinputlisting[style=Arduino,firstline=221,lastline=227]{code/TimerVentilatore4/TimerVentilatore4.ino}        
+%    \subsubsection{FunzioneD}
+%        (non usata)
+%    \section{Codice completo}
+%        \lstinputlisting[style=Arduino,firstline=1,lastline=350]{code/TimerVentilatore4/TimerVentilatore4.ino}
+%    \section{Schema elettrico}
+%    \includegraphics[width=16cm]{images/schema.png}
+%    \section{PCB}
+%    \includegraphics[width=16cm]{images/pcb.png}
 \end{document}
